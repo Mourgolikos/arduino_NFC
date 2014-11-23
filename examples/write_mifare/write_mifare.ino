@@ -92,7 +92,7 @@ void loop(void) {
 
 //write URI
 
-      memcpy(payload, "odopod.com", 10);
+      memcpy(payload, "paschaleris.gr", 14);
       uint8_t len = NDEF().encode_URI(NDEF_URIPREFIX_HTTP, payload);
 
 
